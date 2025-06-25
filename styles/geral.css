@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { font-family: "Montserrat";}
+
+a{
+    text-decoration: none !important;
+    color: #BD93F9 !important;
+    font-weight: 500;
+}
+a:hover{
+    color: #8643e4 !important;
+}
+ul{
+    list-style-type: none;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+div[data-testid="stVerticalBlockBorderWrapper"]:nth-of-type(4) {
+    text-align: center;
+}
+
+#MainMenu{ visibility: hidden;}
+footer{ visibility: hidden;}
+header{ visibility: hidden;}
